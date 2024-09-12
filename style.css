@@ -1,0 +1,83 @@
+
+    #cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 5px;
+        #card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            padding: 30px;
+            gap: 5px;
+            border: 3px black solid;
+            #img{
+                 height: 130px;
+                 }
+            #title{
+                color: green;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            #price{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: end;
+                gap: 5px;
+                border: 2px black solid;
+                #num{
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                #onwords{
+                    font-size: 25px;
+                    color: gray;
+                    font-weight: 800;
+                }
+            }
+            #delivery{
+                font-size: 30px;
+            }
+            #rating{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: end;
+                gap: 5px;
+                #starts{
+                   background-color: green;
+                   color: white;
+                   font-size: 25px;
+                   border-radius: 30px;
+                   font-weight: bold;
+                   padding: 5px 20px; 
+                }
+                #reviews{
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: grey;
+                }
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
